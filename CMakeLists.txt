@@ -10,5 +10,6 @@ project(add)
 # three:
 set(include_path ${PROJECT_SOURCE_DIR}/src/)
 include_directories(${include_path})
+MESSAGE("LIB PATH:" ${include_path})
 
 add_executable(add add.cpp)
